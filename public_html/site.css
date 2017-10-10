@@ -1,0 +1,136 @@
+/* Ogólne */
+body {
+   background: linear-gradient(#958E95, #7FADA9);
+   color: #0A1829;   
+}
+li {
+   list-style: none;
+}
+/*Menu główne*/
+#menu {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background: #CCD9CE;
+}
+
+#menu a {
+   display: flex;
+   padding: 1.5em;
+   text-decoration: none;
+}
+
+#menu a:hover {
+   background: #958E95;
+   cursor: pointer;
+}
+
+/*Lewa kolumna*/
+#content {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+#left-menu {
+   display: flex;
+   flex-grow: 1;
+   background: #958E95;
+   box-shadow: 10px 1px 1px 5px #7FADA9;
+}
+
+#left-menu li {
+   padding: 1em;
+   background: #7FADCC;
+   cursor: pointer;
+}
+
+#left-menu li:hover {
+   background: #7FADA0;
+}
+
+/*Prawa kolumna*/
+#article {
+   display: flex;
+   flex-direction: column;
+   flex-grow: 5;
+    /* width: 70%;  */
+   background: #958E95;
+   box-shadow: 10px 1px 1px 5px #7FADA9;
+}
+
+#article ul {
+   display: flex;
+   flex-direction: column;
+}
+
+#article h3, #article ul, #description {
+   display: flex;
+}
+
+/* Przyciski */
+.btn {
+   cursor: pointer;
+   border: 2px solid #0A1829;
+   padding: 1.3em;
+   width: 30%;
+   margin: 0.5em;
+}
+.btn:hover {
+   background-color: #CCD9CE;
+}
+
+.btn-primary {
+   background-color: #7F5FFF;
+}
+.btn-primary:hover {
+   background-color: #7F5FAA;
+   color:#CCD9CE;
+}
+
+/*Formularz*/
+.form-control {
+   display: table;
+   flex-direction: row;
+   border: 1px solid #7FADA0;
+}
+.input {
+   display: table-cell;
+   background-color: #eee;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 1.3em;
+   min-width: 1.2em;
+}
+
+/*Modal*/
+.modal-header {
+   padding: 2px 16px;
+   background-color: rgb(100, 210, 200);
+   color: rgb(234, 210, 200);
+}
+.modal-body {
+   padding: 2px 16px;
+   background-color: #7F5FFF;
+}
+
+.modal-footer {
+   padding: 2px 16px;
+   background-color: rgb(100, 210, 200);
+   color: rgb(234, 210, 200);
+}
+
+.modal-content {
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   padding-top: 100px; /* Location of the box */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /*
+}
+
+

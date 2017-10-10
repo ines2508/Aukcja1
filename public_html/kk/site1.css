@@ -1,0 +1,83 @@
+/* Ogólne */
+
+body {
+    background-color: #FFC59A;
+    color: #30939D;
+}
+li {
+    list-style: none;
+}
+
+/* Menu główne */
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #EAA776;
+}
+#menu a {
+    display: flex;
+    padding: 1.5em;
+    text-decoration: none;
+}
+#menu a:hover {
+    background-color: #9D6740;
+    cursor: pointer;
+}
+/* Lewa kolumna */
+#content {
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#left-menu {
+    display: flex;
+    flex-grow: 1;
+    background-color: #76DFEA;
+}
+#left-menu li {
+    padding: 1em;
+    background-color: white;
+    cursor: pointer;
+}
+#left-menu li:hover {
+    background-color: #9D6740;
+}
+#article {
+    display: flex;
+    flex-direction: column;
+  
+    flex-grow: 5;
+    background-color: white;
+}
+#article ul {
+    display: flex;
+    flex-direction: column;
+}
+#article h3,#article ul, #description {
+    display: flex;
+}
+.btn {
+    cursor: pointer;
+    border: 2px solid blue;
+    width: 30%;
+    padding: 1.5em;
+    margin: 0.5em;
+}
+.btn:hover {
+    background-color: white;
+}
+.btn-primary {
+    background-color: #9D6740;
+}
+.btn-primary:hover {
+    background-color: #76DFEA;
+    color: #9D6740;
+}
+/* formularz */
+.form-control {
+    display: display-table;
+    flex-direction: row;
+    border: 1px solid blue;
+}
